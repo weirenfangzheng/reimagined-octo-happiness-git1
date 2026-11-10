@@ -1,0 +1,80 @@
+# ---------- OS junk ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------- Editors / IDEs ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+*.suo
+*.user
+
+# ---------- Logs & temp ----------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+config.local.*
+
+# ---------- Dependencies ----------
+node_modules/
+.pnp
+.pnp.js
+bower_components/
+vendor/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# ---------- Build output / artifacts ----------
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.o
+*.obj
+*.class
+*.jar
+.next/
+.nuxt/
+.cache/
+coverage/
+*.tsbuildinfo
+
+# ---------- Misc ----------
+*.zip
+*.7z
+*.rar
+.DS_Store?
